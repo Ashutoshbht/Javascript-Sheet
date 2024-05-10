@@ -1,0 +1,45 @@
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+}
+.carousel-slide img{
+    width: 55%;
+    position: relative;
+    left: 23%;
+}
+
+button {
+    cursor: pointer;
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 10px 20px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+}
+
+button:hover {
+    background-color: #45a049; 
+}
+
+span.page {
+    cursor: pointer;
+    margin: 0 5px;
+    padding: 5px 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+span.page.active {
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: #4CAF50; 
+    color: white; 
+}

@@ -1,0 +1,156 @@
+/* Global Styles */
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 50px;
+    color: #080862;
+    margin: 0;
+    margin-left: 27px;
+}
+
+.nav-box {
+    border-radius: 74px;
+    font-family: "Montserrat", sans-serif;
+    border-color: #080862;
+    box-shadow: 0px 0px 10px rgba(39, 13, 232, 0.3);
+    border: 2px solid #5353c1;
+    padding: 30px;
+    width: 93%;
+    margin-left: 1%;
+    margin-top: 20px; 
+    overflow: auto; 
+}
+
+#searchArea,
+#searchRadius,
+#searchType,
+#tenureType,
+#priceType,
+#spaceType {
+    border: none;
+    height: 32px;
+    font-family: "Montserrat", sans-serif;
+    margin-right: 0px;
+    width: 115px;
+}
+
+.vertical-line {
+    display: inline-block;
+    width: 3px;
+    height: 59px;
+    background-color: red;
+    margin-right: 13px;
+}
+
+
+/* Search filter options */
+.search-option1 {
+    display: inline-block;
+    color: black;
+}
+.search-option2, 
+.search-option3,
+.search-option4,
+.search-option5,
+.search-option6
+ {
+    display: inline-block;
+    color: black;
+    /* margin-right: 35px; */
+}
+.search-option2 input {
+    border: none; 
+    font-family: 'Montserrat', sans-serif; 
+    cursor: pointer;
+    padding: 5px; 
+}
+.search-option3 input {
+    border: none; 
+    font-family: 'Montserrat', sans-serif; 
+    cursor: pointer;
+    padding: 5px; 
+}
+/* .search-option4 input {
+    border: none; 
+    font-family: 'Montserrat', sans-serif; 
+    padding: 5px; 
+} */
+/* Styling for the input */
+.search-option4 input {
+    border: none; 
+    font-family: 'Montserrat', sans-serif; 
+    padding: 5px; 
+    cursor: pointer; /* Change cursor to pointer when hovering over input */
+    border-radius: 5px; /* Add some border-radius for a rounded appearance */
+}
+
+/* Styling for the datalist dropdown */
+datalist {
+    display: none; /* Hide the dropdown by default */
+    position: absolute; /* Position it absolutely */
+    z-index: 1; /* Ensure it's on top of other elements */
+    background-color: #ffffff; /* White background color */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 5px; /* Add some border-radius for a rounded appearance */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box-shadow for depth */
+}
+
+.search-option5 input {
+    border: none; 
+    font-family: 'Montserrat', sans-serif; 
+    padding: 5px; 
+    
+    cursor: pointer; /* Change cursor to pointer when hovering over input */
+    border-radius: 5px; /* Add some border-radius for a rounded appearance */
+}
+
+
+.search-btn{
+    display: inline-block;
+    text-align: center;
+}
+#search-btn{
+    padding: 10px 20px; 
+    background-color: #0214be; 
+    color: white; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer; 
+    transition: background-color 0.3s;
+}
+#search-btn:hover{
+    background-color: #506be3;
+}
+
+
+/* second div box with values section */
+.nav_values{
+    border-radius: 74px;
+    font-family: "Montserrat", sans-serif;
+    border-color: #080862;
+    box-shadow: 0px 0px 10px rgba(39, 13, 232, 0.3);
+    border: 2px solid #5353c1;
+    padding: 30px;
+    width: 93%;
+    margin-left: 1%;
+    margin-top: 20px; 
+    overflow: auto; 
+}
+
+
+
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}

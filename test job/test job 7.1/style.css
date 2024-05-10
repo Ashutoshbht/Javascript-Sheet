@@ -1,0 +1,174 @@
+*{
+margin: 0;
+padding: 0;
+font-family: "Montserrat", sans-serif;
+}
+body{
+width: 100%;
+font-family: "Montserrat", sans-serif;
+color: rgb(2, 2, 59);
+}
+section div{
+margin: 10px;
+}
+section div p{
+margin: 10px;
+font-size: xx-large;
+font-weight: bolder;  
+}
+.searchset{
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+    left: 0px;
+    top: -6.5px;
+}
+nav{
+margin: 10px;
+padding: 5px;
+height: 110px;
+border: 2px solid #5353c1;
+box-shadow: 0px 0px 10px rgba(39, 13, 232, 0.3);
+border-radius: 77px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+#searchArea{
+    border: none;
+    height: 23px;
+    font-family: "Montserrat", sans-serif;
+    margin-right: 0px;
+    width: 104px;
+    position: relative;
+    left: 15%;
+    top: -10px;
+}
+#searchRadius,#searchTypes,#searchTenure,#searchPrice,#searchSpace{
+    border: none;
+    height: 24px;
+    font-family: "Montserrat", sans-serif;
+    margin-right: 0px;
+    width: 115px;
+    cursor: pointer;
+}
+.search_radius{
+    border: none;
+}
+
+nav div{
+margin:15px auto;
+}
+
+#price #arrow_dwn {
+    width: 10px;
+    position: relative;
+    bottom: 100%;
+}
+
+
+
+nav .line{
+height: 2px;
+width: 30px;
+background-color: rgb(253, 2, 2);
+transform: rotate(90deg); 
+}
+nav div button{
+height: 30px;
+width: 100px;
+border: none;
+border-radius: 40px;
+background-color: rgb(2, 2, 59);
+color: white;
+}
+nav div select{
+width: 100%;
+border: none;
+}
+nav div #price{
+height: 20px;
+width: 100px;
+border: none;
+color: black;
+}
+nav div #price #arrow_dwn{
+float: right;
+}
+
+/*Select price nav bar*/
+.nav_values{
+border: 2px solid rgb(2, 2, 59);
+padding: 5px;
+border-radius: 15px;
+width: 150px;
+align-items: center;
+}
+#min_range,#max_range{
+    border: none;
+}
+.nav_values p{
+float: center;
+position: relative;
+left: 5px;
+}
+.nav_values p i{
+margin: 0 10px;
+display: flex;
+}
+.check-icon{
+transform: scale(0);
+}
+.check.checked .check-icon {
+    transform: scale(1);
+    position: relative;
+    right: -77%;
+    top: 19px;
+}
+
+.search_radius{
+position: absolute;
+left: 220px;
+display: none;
+border-color: #080862;
+box-shadow: 0px 0px 10px rgba(39, 13, 232, 0.3);
+border: 2px solid #5353c1;
+}
+.type{
+position: absolute;
+left: 440px;
+display: none;
+border-color: #080862;
+box-shadow: 0px 0px 10px rgba(39, 13, 232, 0.3);
+border: 2px solid #5353c1;
+}
+.tenure_type{
+position: absolute;
+left: 630px;
+display: none;
+border-color: #080862;
+box-shadow: 0px 0px 10px rgba(39, 13, 232, 0.3);
+border: 2px solid #5353c1;
+}
+.price_nav_bar{
+position: absolute;
+left: 850px;
+width: 260px;
+justify-content: center;
+display: none;
+border-color: #080862;
+box-shadow: 0px 0px 10px rgba(39, 13, 232, 0.3);
+border: 2px solid #5353c1;
+}
+.price_nav_bar .line{
+height: 2px;
+width: 30px;
+background-color: rgb(253, 2, 2);
+transform: rotate(90deg); 
+}
+.open_price_list{
+display: flex;
+}
+.open_list{
+display: block;
+font-family: "Montserrat", sans-serif;
+}
